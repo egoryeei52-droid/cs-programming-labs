@@ -1,0 +1,6 @@
+full_name = input().strip()
+parts = full_name.split()
+surname = parts[0].capitalize()
+name = parts[1][0].upper()
+patronymic = parts[2][0].upper()
+print(f'{surname}.{name}.{patronymic}')
