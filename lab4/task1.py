@@ -1,0 +1,5 @@
+current = float(input())
+desired = float(input())
+if current > desired: print('Охлаждение')
+if current  < desired: print('Нагрев')
+if current == desired: print('Выключен')
